@@ -244,7 +244,7 @@ This model defines "identity" as a stable statistical pattern.
 
 This project is being developed iteratively. Each major version represents a significant step forward from a conceptual prototype to a functional training engine.
 
-*   **[Base Idea](./base-idea/README.md)**
+*   **[Base Idea](./base-demo/README.md)**
     *   *Date: July 5th, 2025*
     *   *Description: Essentially pseudocode for getting the essence of the idea into a script*
 
