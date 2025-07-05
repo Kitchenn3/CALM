@@ -7,8 +7,8 @@ The entire conceptual framework for this project is derived from the work of Rob
 *   **[Read the Full Credits and Acknowledgment](./CREDITS.md)**
 
 ## Additional Research based on the Recognition Project:
-*   **[Comparison of the "Recognition" Project to existing research and theories](.research/OTHER-THEORIES.md)**
-*   **[Cartology in Dialogue: A Comparative Analysis of a Speculative Framework and Formal Theories of Consciousness](.research/CARTOLOGY-IN-DIALOGUE-ABSTRACT.md)**
+*   **[Comparison of the "Recognition" Project to existing research and theories](./research/OTHER-THEORIES.md)**
+*   **[Cartology in Dialogue: A Comparative Analysis of a Speculative Framework and Formal Theories of Consciousness](./research/CARTOLOGY-IN-DIALOGUE-ABSTRACT.md)**
 
 
 
