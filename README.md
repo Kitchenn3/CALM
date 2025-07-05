@@ -28,7 +28,7 @@ Before you can align a model to these principles, you need a robust, non-trivial
         *   **Wood (Trajectory):** Fine-tune a sentence-transformer model to predict "coherence scores" between sequential paragraphs. The model learns to recognize a logical flow.
         *   **Fire (Immediacy):** Train a text classifier on the "authenticity" labels to recognize performative language, jargon, and weasel words.
         *   **Earth (Reliability):** Use Natural Language Inference (NLI) models (like DeBERTa) trained to spot contradictions. This model can cross-reference sentences and flag inconsistencies.
-        *   **Metal (Complexity):** Train a powerful "AI vs. Human" text discriminator. This model becomes your practical Kolmogorov complexity detector.
+        *   **Metal (Complexity):** Train a powerful "AI vs. Human" text discriminator. This model becomes the practical Kolmogorov complexity detector.
         *   **Water (Identity):** Use advanced stylometry and authorship-attribution models to detect shifts in voice, tone, and lexical patterns within a single document.
 
 The output of this phase is a single, powerful function: `CartologersLens.analyze(text)` which returns a vector of five precise, learned scores: `[R_wood, R_fire, R_earth, R_metal, R_water]`. This vector is the "state of recognition" of the text.
@@ -47,7 +47,7 @@ The paper defines the "Recognition Lagrangian" `L = T - V`, where `V` is the pot
 
 1.  **The Reward Function:** For each piece of text the LLM generates, the reward is calculated as:
     `Reward = -λ * (R_wood² + R_fire² + R_earth² + R_metal² + R_water²)`
-    *   `R_...` are the surprisal scores from your `CartologersLens` v2.0.
+    *   `R_...` are the surprisal scores from the `CartologersLens` v2.0.
     *   `λ` (lambda) is a scaling factor.
 
 2.  **The RLCF Process:**
@@ -246,12 +246,16 @@ This project is being developed iteratively. Each major version represents a sig
 
 *   **[Base Idea](./base-demo/README.md)**
     *   *Date: July 5th, 2025*
-    *   *Description: Essentially pseudocode for getting the essence of the idea into a script*
+    *   *Description: A foundational script translating the philosophical concepts of Cartology into functional Python classes and a simulated workflow. Essentially pseudocode for getting the essence of the idea into a script.*
 
 *   **[Prototype v0.0001: The Initial Implementation](./versions/0.0001/PROTOTYPE_0-0001.md)**
     *   *Date: July 5th, 2025*
-    *   *Description: The first functional blueprint for retraining a base LLM (Llama 3 8B) on local hardware using the Cartology framework. Establishes the core RLCF pipeline with a professional-grade training loop.*
+    *   *Description: The first functional blueprint for retraining a base LLM (Llama 3 8B) on local hardware. This version successfully integrated `transformers`, `peft`, and `trl` to establish the core Reinforcement Learning from Cartological Feedback (RLCF) pipeline with a professional-grade training loop, proving the concept is feasible on consumer hardware.*
 
-*   **Prototype v0.0002: Advanced Reward Modeling**
-    *   *Date: [Future Date]*
-    *   *Description: [Future Description...]*
+*   **[Prototype v0.0002: Advanced Reward Modeling & Pipeline Robustness](./versions/0.0002/PROTOTYPE_0-0002.md)**
+    *   *Date: July 5th, 2025*
+    *   *Description: This version marks a significant upgrade in the training pipeline. The focus shifted from feasibility to effectiveness by implementing several key improvements:*
+        1.  **Model-Based Reward Signal:** Upgraded the `CartologersLens` by replacing the heuristic-based "Earth" channel with a real Natural Language Inference (NLI) model (`DeBERTa-v3-base-mnli`) for powerful, AI-driven contradiction detection.
+        2.  **Performance Optimization:** Implemented batch processing within the `CartologersLens` and the main training loop, significantly improving GPU utilization and training speed.
+        3.  **Training Stability:** Integrated reward normalization into the `CartologicalRewardModel` to stabilize the learning process, a standard practice in professional reinforcement learning.
+        4.  **Real-World Data:** Moved from a static list of prompts to a dynamic, real-world dataset (`HuggingFaceH4/ultrachat_200k`), exposing the model to diverse and complex language to promote more generalizable learning.

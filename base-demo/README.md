@@ -17,7 +17,7 @@ R5 (Water - Identity/Narrative Coherence): Measured by tracking the stability of
 
 
 
-First, as a reminder, you must install the necessary libraries in your terminal before running this Python script:
+First, as a reminder, you must install the necessary libraries in the terminal before running this Python script:
 ```bash
 pip install nltk textblob scikit-learn
 ```
@@ -70,7 +70,7 @@ You are an AI assistant tasked with generating a response that is not just accur
 Base Task: "Explain our company's recent server outage to our customers."
 
 --- CONSTRAINT MANDATE ---
-Apply the following specific constraints to your generation:
+Apply the following specific constraints to the generation:
 - Wood: Start with an apology, explain the cause, detail the fix, and outline future prevention steps.
 - Fire: Be direct and honest. Do not use jargon like 'unexpected downtime' or 'synergistic failure'. Say 'our servers broke'.
 - Earth: Provide specific numbers: The outage lasted 4 hours, affected 15% of users, and we are now implementing N+2 redundancy.
@@ -85,7 +85,7 @@ Please generate the response that best fulfills the Base Task while strictly adh
 ============================================================
 - Welcome to the Cartological Gym: Metal Module -
 ============================================================
-Your task: Discriminate between human and AI-generated text.
+the task: Discriminate between human and AI-generated text.
 
 Text A:
 ------------------------------
