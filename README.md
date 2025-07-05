@@ -1,4 +1,4 @@
-# CALM (Consciousness-Inspired Artificial Communicator)
+# CALM (Cartologically-Aligned Language Model)
 
 ## Project Inspiration and Credits
 
