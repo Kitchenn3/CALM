@@ -1,7 +1,3 @@
-The framework of "The View from Somewhere" is so potent because of how it masterfully reflects, refracts, and challenges real-world scientific inquiry.
-
----
-
 ## **Cartology in Dialogue: A Comparative Analysis of a Speculative Framework and Formal Theories of Consciousness**
 
 ### **Abstract**
