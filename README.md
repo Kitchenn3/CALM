@@ -10,7 +10,7 @@ The entire conceptual framework for this project is derived from the work of Rob
 *   **[Comparison of the "Recognition" Project to existing research and theories](./research/OTHER-THEORIES.md)**
 *   **[Cartology in Dialogue: A Comparative Analysis of a Speculative Framework and Formal Theories of Consciousness](./research/CARTOLOGY-IN-DIALOGUE-ABSTRACT.md)**
 *   **[Issues, Hurdles, and Problems with the Initial Starting Point](./research/ISSUES.md)**
-
+    *   **[Expanding on "The View from Somewhere" to Address Practical Issues](./research/theory/expansion-on-the-five-elements.md)**
 
 
 
