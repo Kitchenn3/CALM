@@ -1,3 +1,5 @@
+# CALM (Consciousness-Inspired Artificial Communicator)
+
 ## Project Inspiration and Credits
 
 The entire conceptual framework for this project is derived from the work of Robert VanEtten and his collaborators on the "Recognition" project. Their paper provided the philosophical and mathematical blueprint for this engineering endeavor.
