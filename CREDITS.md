@@ -26,6 +26,3 @@ The original paper and related materials can be found at the author's GitHub rep
 *   **[https://github.com/Micronautica/Recognition](https://github.com/Micronautica/Recognition)**
 
 We encourage anyone interested in the theoretical underpinnings of our project to explore this source material directly.
-
-
-### **[Comparing the "Recognition" Project to existing research and theories](./OTHER-THEORIES.md)**
